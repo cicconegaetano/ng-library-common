@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 
 @Component({
   selector: 'lib-ngx-library-common',
@@ -7,12 +7,12 @@ import { Component, OnInit } from '@angular/core';
       ngx-library-common works!
     </p>
   `,
-  styles: [
-  ]
+  styles: []
 })
 export class NgxLibraryCommonComponent implements OnInit {
 
-  constructor() { }
+  constructor() {
+  }
 
   ngOnInit(): void {
   }

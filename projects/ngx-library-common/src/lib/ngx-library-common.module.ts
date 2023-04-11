@@ -1,16 +1,14 @@
-import { NgModule } from '@angular/core';
-import { NgxLibraryCommonComponent } from './ngx-library-common.component';
-
-
+import {NgModule} from '@angular/core';
+import {NgxLibraryCommonComponent} from './ngx-library-common.component';
 
 @NgModule({
   declarations: [
     NgxLibraryCommonComponent
   ],
-  imports: [
-  ],
+  imports: [],
   exports: [
     NgxLibraryCommonComponent
   ]
 })
-export class NgxLibraryCommonModule { }
+export class NgxLibraryCommonModule {
+}

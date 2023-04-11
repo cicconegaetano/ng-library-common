@@ -1,20 +1,20 @@
 import {ComponentFixture, TestBed} from '@angular/core/testing';
 
-import {NgxLibraryCommonComponent} from './ngx-library-common.component';
+import {BtnSubmitComponent} from './btn-submit.component';
 
-describe('NgxLibraryCommonComponent', () => {
-  let component: NgxLibraryCommonComponent;
-  let fixture: ComponentFixture<NgxLibraryCommonComponent>;
+describe('BtnSubmitComponent', () => {
+  let component: BtnSubmitComponent;
+  let fixture: ComponentFixture<BtnSubmitComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [NgxLibraryCommonComponent]
+      declarations: [BtnSubmitComponent]
     })
       .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(NgxLibraryCommonComponent);
+    fixture = TestBed.createComponent(BtnSubmitComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

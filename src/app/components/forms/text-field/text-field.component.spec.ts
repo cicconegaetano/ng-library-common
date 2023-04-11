@@ -1,20 +1,20 @@
 import {ComponentFixture, TestBed} from '@angular/core/testing';
 
-import {NgxLibraryCommonComponent} from './ngx-library-common.component';
+import {TextFieldComponent} from './text-field.component';
 
-describe('NgxLibraryCommonComponent', () => {
-  let component: NgxLibraryCommonComponent;
-  let fixture: ComponentFixture<NgxLibraryCommonComponent>;
+describe('TextFieldComponent', () => {
+  let component: TextFieldComponent;
+  let fixture: ComponentFixture<TextFieldComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [NgxLibraryCommonComponent]
+      declarations: [TextFieldComponent]
     })
       .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(NgxLibraryCommonComponent);
+    fixture = TestBed.createComponent(TextFieldComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
